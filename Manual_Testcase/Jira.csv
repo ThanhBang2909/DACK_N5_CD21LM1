@@ -1,0 +1,508 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Custom field (Actual Result),Custom field (Actual end),Custom field (Actual start),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Compass),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Epic Link Summary,Custom field (Epic Name),Custom field (Epic Status),Custom field (Expected Result),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Request Type),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Test Level),Custom field (Test Steps),Custom field (Testcase Result),Custom field (Total forms),Custom field ([CHART] Date of First Response),Status Category
+EA27-Verify Email-First character cannot have space,N5-61,10280,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,15/Mar/23 9:47 PM,15/Mar/23 9:47 PM,19/Mar/23 7:34 PM,,,0,EditAccount,"EA: Edit Accaount
+
+27-Verify Email-First character cannot have space
+
+Họ tên
+
+[Email: ____ltbang29092003@gmail.com|mailto:Email:ltbang29092003@gmail.com]
+
+Số điện thoại:0344.270.054
+
+Địa chỉ
+
+Ngày sinh:29/09/2003",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,Như mong đợi,,,,,,,,,,N5-40,EditAccount,,,"1)Hiển thị thông báo:""Email không đúng định dạng""",,,,,0|i001kn:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập tất cả các trường
+2)Nhấn cập nhật",Pass,,,To Do
+EA24-Verify FullName-First character cannot have space,N5-60,10279,Bug,Open,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,15/Mar/23 9:17 PM,17/Mar/23 8:28 PM,19/Mar/23 7:34 PM,,,0,EditAccount,"EA: Edit Accaount
+
+24:Verify FullName-First character cannot have space
+
+
+
+Test data:
+
+Họ tên __thanhbang
+
+[Email:ltbang29092003@gmail.com|mailto:Email:ltbang29092003@gmail.com]
+
+Số điện thoại:0344.270.054
+
+Địa chỉ
+
+Ngày sinh:29/09/2003",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,15/Mar/23 9:17 PM;62a0c1144e1a640070c4143b;RF24.png;https://tranthaodien.atlassian.net/secure/attachment/10150/RF24.png,Không như mong đợi,,,,,,,,,,N5-40,EditAccount,,,"Hiển thị lỗi:""fullName không đúng dịnh dạng""",,,,,0|i001kf:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập tất cả các trường
+2)Nhấn cập nhật",Fail,,,To Do
+EA23-Verify FullName -	Special character are not allowed ,N5-59,10278,Bug,Open,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,15/Mar/23 9:14 PM,17/Mar/23 8:26 PM,19/Mar/23 7:34 PM,,,0,EditAccount,"EA: Edit Accaount
+
+23:Verify FullName -Special character are not allowed 
+
+Họ tên: ###thanhbang
+
+[Email:ltbang29092003@gmail.com|mailto:Email:ltbang29092003@gmail.com]
+
+Số điện thoại:0344.270.054
+
+Địa chỉ
+
+Ngày sinh:29/09/2003",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,15/Mar/23 9:13 PM;62a0c1144e1a640070c4143b;RF23.png;https://tranthaodien.atlassian.net/secure/attachment/10149/RF23.png,không như mong đợi,,,,,,,,,,N5-40,EditAccount,,,"1)Hiển thị lỗi:""fullName không chứa ký tự đặc biệt""",,,,,0|i001k7:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập tất cả các trường
+2)Nhấn cập nhật",Fail,,,To Do
+LF21-Verify Password-First character cannot have space,N5-58,10277,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,15/Mar/23 8:52 PM,15/Mar/23 8:52 PM,19/Mar/23 7:34 PM,,,0,LoginForm,"LF: LoginForm
+
+21:Verify Password-First character cannot have space
+
+Test data:
+
+Email: [abc@gmail.com|mailto:___abc@gmail.com]
+
+Mật khẩu: ___123456",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hiển thị lỗi:""Mật khẩu không đúng định dạng""",,,,,,,,,,N5-1,LOGIN,,,"Hiển thị lỗi:""Mật khẩu không đúng định dạng""",,,,,0|i001jz:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập khoảng trắng trước trường mật khẩu
+2)Nhấn đăng nhập",Pass,,,To Do
+LF20	-Verify Password -Password must be at least 6 characters.,N5-57,10276,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,15/Mar/23 8:51 PM,15/Mar/23 8:51 PM,19/Mar/23 7:34 PM,,,0,LoginForm,"LF: LoginForm
+
+20:Verify Password -Password must be at least 6 characters.
+
+Test data:
+
+Email: [abc@gmail.com|mailto:___abc@gmail.com]
+
+Mật khẩu: 123",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"1)Hiển thị lỗi:""Mật khẩu dài tối thiểu 6 kí tự""",,,,,,,,,,N5-1,LOGIN,,,"1)Hiển thị lỗi:""Mật khẩu dài tối thiểu 6 kí tự""",,,,,0|i001jr:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập trường mật khẩu
+2)Nhấn đăng nhập",Pass,,,To Do
+LF19-Verify Password-Password no must not be blank,N5-56,10275,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,15/Mar/23 8:49 PM,15/Mar/23 8:49 PM,19/Mar/23 7:34 PM,,,0,LoginForm,"LF: LoginForm
+
+19:Verify Password-Password no must not be blank
+
+Test data:
+
+Email: [abc@gmail.com|mailto:___abc@gmail.com]
+
+Mật khẩu: ",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hiển thị lỗi:""Mời nhập mật khẩu""",,,,,,,,,,N5-1,LOGIN,,,"Hiển thị lỗi:""Mời nhập mật khẩu""",,,,,0|i001jj:,,N5 Sprint 1,,,,,,,,Unit,"1)Bỏ trống trường mật khẩu
+2)Nhấn đăng nhập",Pass,,,To Do
+LF18	-Verify Email-First character cannot have space,N5-55,10274,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,15/Mar/23 8:47 PM,15/Mar/23 8:47 PM,19/Mar/23 7:34 PM,,,0,LoginForm,"LF: LoginForm
+
+18:Verify Email-First character cannot have space
+
+
+
+Test data:
+
+Email: [___abc@gmail.com|mailto:___abc@gmail.com]
+
+Mật khẩu: 123456",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hiển thị lỗi:""Email không đúng định dạng""",,,,,,,,,,N5-1,LOGIN,,,"Hiển thị lỗi:""Email không đúng định dạng""",,,,,0|i001jb:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập khoảng trắng trước trường email
+2)Nhấn đăng nhập",Pass,,,To Do
+LF17	-Verify Emai-Email ID is not valid,N5-54,10273,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,15/Mar/23 8:44 PM,15/Mar/23 8:44 PM,19/Mar/23 7:34 PM,,,0,LoginForm,"LF: LoginForm
+
+17	-Verify Emai-Email ID is not valid",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hiển thị lôi:""Email không đúng định dạng""",,,,,,,,,,N5-1,LOGIN,,,"Hiển thị lôi:""Email không đúng định dạng""",,,,,0|i001j3:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập email không đúng định dạng
+2) Nhấn đăng nhập",Pass,,,To Do
+RF07-Verify Telephone Number-Mobile no must not be blank,N5-53,10272,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,15/Mar/23 8:10 PM,15/Mar/23 8:10 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+07-Verify Telephone Number-Mobile no must not be blank",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hiển thị lỗi:'Mời nhập số điện thoại""",,,,,,,,,,N5-2,REGISTER,,,"Hiển thị lỗi:'Mời nhập số điện thoại""",,,,,0|i001iv:,,N5 Sprint 1,,,,,,,,Unit,"1)Bỏ trống trường số điện thoại
+2)Nhấn đăng ký",Pass,,,To Do
+CP35-Old Password- must not be blank,N5-50,10269,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 5:06 PM,15/Mar/23 9:00 PM,19/Mar/23 7:34 PM,,,0,ChangePassword,"CP: ChangePassword
+
+35:Old Password- must not be blank
+
+Mật khẩu cũ_:29092003_
+
+Xác nhận mật khẩu",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,Đúng như mong đợi,,,,,,,,,,N5-36,ChangePassword,,,"Thông báo lỗi: ""Mời nhập lại mật khẩu tối thiểu 6 ký tự.""",,,,,0|i001i7:,,N5 Sprint 1,,,,,,,,Unit,"1,Bỏ trường  mật khẩu cũ
+2,Bấm cập nhật",Pass,,,To Do
+EA31	-Verify Date-Date no must not be blank,N5-49,10268,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 5:03 PM,16/Mar/23 8:25 PM,19/Mar/23 7:34 PM,,,0,EditAccount,"EA: Edit Accaount
+
+31 :Verify Date-Date no must not be blank
+
+Họ tên: ThanhBang
+
+[Email:ltbang29092003@gmail.com|mailto:Email:ltbang29092003@gmail.com]
+
+Số điện thoại: 084934324
+
+Địa chỉ
+
+Ngày sinh:",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 5:03 PM;62a0c1144e1a640070c4143b;i9.png;https://tranthaodien.atlassian.net/secure/attachment/10143/i9.png,Đúng như mong đợi,,,,,,,,,,N5-40,EditAccount,,,"Thông báo lỗi:""Mời nhập ngày sinh.""",,,,,0|i001hz:,,N5 Sprint 1,,,,,,,,Unit,"1,Bỏ trường ngày sinh
+2,Bấm cập nhật",Pass,,,To Do
+EA26-Verify Email-Email ID is not valid,N5-48,10267,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 5:01 PM,15/Mar/23 9:25 PM,19/Mar/23 7:34 PM,,,0,EditAccount,"
+
+Email:ltbang2",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 5:00 PM;62a0c1144e1a640070c4143b;i6.png;https://tranthaodien.atlassian.net/secure/attachment/10142/i6.png,Đúng như mong đợi,,,,,,,,,,N5-40,EditAccount,,,"Thông báo lỗi""Địa chỉ Email không hợp lệ.""",,,,,0|i001hr:,,N5 Sprint 1,,,,,,,,Unit,"1,Nhập trường email
+2,Bấm cập nhật",Pass,,,To Do
+EA28-Verify Telephone Number-Mobile no must not be blank,N5-47,10266,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 4:57 PM,16/Mar/23 8:25 PM,19/Mar/23 7:34 PM,,,0,EditAccount,"EA: Edit Accaount
+
+28:Verify Telephone Number-Mobile no must not be blank
+
+Họ tên :ThanhBang
+
+[Email:ltbang29092003@gmail.com|mailto:Email:ltbang29092003@gmail.com]
+
+Số điện thoại
+
+Địa chỉ
+
+Ngày sinh:29/09/2003",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 4:57 PM;62a0c1144e1a640070c4143b;i5.png;https://tranthaodien.atlassian.net/secure/attachment/10141/i5.png,Đúng như mong đợi,,,,,,,,,,N5-40,EditAccount,,,"Thông báo lỗi""Số điện thoại không hợp lệ.""",,,,,0|i001hj:,,N5 Sprint 1,,,,,,,,Unit,"1Bỏ trường số điện thoại
+2,Bấm cập nhật",Pass,,,To Do
+EA22-Verify FullName-FullName is required,N5-46,10265,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 4:55 PM,15/Mar/23 9:10 PM,19/Mar/23 7:34 PM,,,0,EditAccount,"EA: Edit Accaount
+
+22-Verify FullName-FullName is required
+
+Họ tên
+
+Email:[ltbang29092003@gmail.com|mailto:ltbang29092003@gmail.com]
+
+Số điện thoại_:0344.270.054_
+
+Địa chỉ
+
+Ngày sinh:_29/09/2003_",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 4:54 PM;62a0c1144e1a640070c4143b;i3.png;https://tranthaodien.atlassian.net/secure/attachment/10140/i3.png,Giống như mong đợi,,,,,,,,,,N5-40,EditAccount,,,"Thông báo""trường họ tên không được để trống""",,,,,0|i001hb:,,N5 Sprint 1,,,,,,,,Unit,"1,Bỏ trường họ tên
+2,Bấm cập nhật",Pass,,,To Do
+EA25-Verify Email-Email ID must not be blank,N5-45,10264,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 4:52 PM,15/Mar/23 9:21 PM,19/Mar/23 7:34 PM,,,0,EditAccount,"EA: Edit Accaount
+
+25-Verify Email-Email ID must not be blank
+
+Họ tên_:Thanh Bằng_
+
+Email_*_
+
+Số điện thoại_:0344.020.206_
+
+Địa chỉ
+
+Ngày sinh_:29/09/2003_",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 4:52 PM;62a0c1144e1a640070c4143b;i2.png;https://tranthaodien.atlassian.net/secure/attachment/10139/i2.png,Đúng như mong đợi,,,,,,,,,,N5-40,EditAccount,,,"Thông báo:""Mời nhập địa chỉ Email.""",,,,,0|i001h3:,,N5 Sprint 1,,,,,,,,Unit,"1,Bỏ trường email
+2,Bấm cập nhật",Pass,,,To Do
+EA28-Verify Telephone Number-Mobile no must not be blank,N5-44,10263,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 4:49 PM,16/Mar/23 8:24 PM,19/Mar/23 7:34 PM,,,0,EditAccount,"EA: Edit Accaount
+
+28:Verify Telephone Number-Mobile no must not be blank
+
+Họ tên_:Thanh Bằng_
+
+Email_:bang123@gmail.com_
+
+Số điện thoại_:_ 
+
+Địa chỉ
+
+Ngày sinh: 29/09/2003",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 4:49 PM;62a0c1144e1a640070c4143b;i1.png;https://tranthaodien.atlassian.net/secure/attachment/10138/i1.png,Đúng như mong đợi,,,,,,,,,,N5-40,EditAccount,,,Không được bỏ trống trường số điện thoại,,,,,0|i001gv:,,N5 Sprint 1,,,,,,,,Unit,"1,Bỏ trường số điện thoại
+2,Bấm cập nhật",Pass,,,To Do
+CP37-Verify Confirm Password - Confirm Password must not be blank,N5-43,10262,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 4:45 PM,15/Mar/23 9:05 PM,19/Mar/23 7:34 PM,,,0,ChangePassword,"CP: ChangePassword
+
+37:Verify Confirm Password - Confirm Password must not be blank
+
+Mật khẩu cũ: 29092003
+
+Mật khẩu mới: 123456
+
+Xác nhận mật khẩu: ",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,Đúng như mong đợi,,,,,,,,,,N5-36,ChangePassword,,,"Hiển thị thông báo lỗi""Nhập trường confirm pass""",,,,,0|i001gn:,,N5 Sprint 1,,,,,,,,Unit,"1)Bỏ trống trường confirm pass
+2)Nhấn cập nhật",Pass,,,To Do
+CP36-Verify New Password-New Password must not be blank,N5-42,10261,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 4:42 PM,15/Mar/23 9:03 PM,19/Mar/23 7:34 PM,,,0,ChangePassword,"Mật khẩu cũ: 1122345
+
+Mật khẩu mới: 
+
+Xác nhận mật khẩu: 1122345",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 4:40 PM;62a0c1144e1a640070c4143b;C1.png;https://tranthaodien.atlassian.net/secure/attachment/10136/C1.png,Đúng như mong đợi,,,,,,,,,,N5-36,ChangePassword,,,Cập nhật thất bại,,,,,0|i001gf:,,N5 Sprint 1,,,,,,,,Unit,"1)Bỏ trống trường mật khẩu mới
+2)Bấm cập nhật",Pass,,,To Do
+EA32-Verify Address-Address no must not be blank,N5-41,10260,Bug,Open,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 4:38 PM,16/Mar/23 8:29 PM,19/Mar/23 7:34 PM,,,0,EditAccount,"EA: Edit Account
+
+32: Verify Address-Address no must not be blank",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 4:37 PM;62a0c1144e1a640070c4143b;l1.png;https://tranthaodien.atlassian.net/secure/attachment/10135/l1.png,Không như mong đợi,,,,,,,,,,N5-40,EditAccount,,,Trường địa chỉ không được để trống,,,,,0|i001g7:,,N5 Sprint 1,,,,,,,,Unit,"1)Bỏ trống trường địa chỉ
+2)Bấm cập nhật",Fail,,,To Do
+EditAccount,N5-40,10259,Epic,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Trần Thảo Điền,629810d99582b8006fc58c21,Trần Thảo Điền,629810d99582b8006fc58c21,05/Jan/23 4:34 PM,15/Mar/23 9:47 PM,05/Jan/23 4:45 PM,,,0,,,,Trần Thảo Điền,629810d99582b8006fc58c21,,,,,,,,,,,,,,,,,,,ghx-label-7,,,EditAccount,To Do,,,purple,,,0|i001fz:,,,,,,,,,,,,,,,To Do
+S-Kiểm tra chức năng thay đổi mật khẩu- Đăng nhập bằng mật khẩu vừa thay đổi,N5-39,10258,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 4:33 PM,05/Jan/23 4:33 PM,05/Jan/23 4:46 PM,,,0,ChangePassword,"Email: ltb29092003@gmail.com
+
+Mật khẩu:   29092003",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,Đăng nhập bằng mật khẩu mới thành công,,,,,,,,,,N5-36,ChangePassword,,,Đăng nhập bằng mật khẩu mới thành công,,,,,0|i001fr:,,BAN Sprint 3,,,,,,,,System,1)Nhập tất cả các trường,Pass,,,To Do
+S-Kiểm tra chức năng thay đổi mật khẩu-Cập nhật mật khẩu mới thành công,N5-38,10257,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 4:30 PM,05/Jan/23 4:30 PM,19/Mar/23 7:34 PM,,,0,ChangePassword,"Mật khẩu cũ_:29092003_
+
+Mật khẩu mới_:123456_
+
+Xác nhận mật khẩu:123456",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 4:30 PM;62a0c1144e1a640070c4143b;r4.png;https://tranthaodien.atlassian.net/secure/attachment/10134/r4.png,Cập nhật thành công ,,,,,,,,,,N5-36,ChangePassword,,,Cập nhật thành công ,,,,,0|i001fj:,,BAN Sprint 3,,,,,,,,System,1)Nhập tất cả các trường,Pass,,,To Do
+S-Kiểm tra chức năng thay đổi mật khẩu-Nếu mật khẩu cũ sai thì thông báo lỗi,N5-37,10256,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 4:25 PM,05/Jan/23 4:26 PM,19/Mar/23 7:34 PM,,,0,ChangePassword,"Mật khẩu cũ_: 222222_
+
+Mật khẩu mới_29092003_
+
+Xác nhận mật khẩu_:29092003_",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 4:25 PM;62a0c1144e1a640070c4143b;s2.png;https://tranthaodien.atlassian.net/secure/attachment/10133/s2.png,"Hiển thị lõi""Nhập lại mật khẩu không khớp""",,,,,,,,,,N5-36,ChangePassword,,,"Hiển thị lõi""Nhập lại mật khẩu không khớp""",,,,,0|i001fb:,,BAN Sprint 3,,,,,,,,System,1)Nhập tất cả các trường ,Pass,,,To Do
+ChangePassword,N5-36,10255,Epic,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Trần Thảo Điền,629810d99582b8006fc58c21,Trần Thảo Điền,629810d99582b8006fc58c21,05/Jan/23 4:24 PM,15/Mar/23 7:52 PM,05/Jan/23 4:50 PM,,,0,,,,Trần Thảo Điền,629810d99582b8006fc58c21,,,,,,,,,,,,,,,,,,,ghx-label-7,,,ChangePassword,To Do,,,purple,,,0|i001f3:,,,,,,,,,,,,,,,To Do
+S-Kiểm tra chức năng đăng ký- Khi đăng ký thành công thông tin khách hàng sẽ được lưu trữ,N5-35,10254,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 4:21 PM,16/Mar/23 8:43 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"Họ và tên: Thanh Bằng
+Email: [abc@gamil.com|mailto:abc@gamil.com]
+Điện thoại: 03440.202.067
+Tên tài khoản:ThanhBang
+Mật khẩu: 29092003",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 4:20 PM;62a0c1144e1a640070c4143b;s1.png;https://tranthaodien.atlassian.net/secure/attachment/10132/s1.png,Đúng như mong đợi,,,,,,,,,,N5-2,REGISTER,,,thông tin được lưu trữ,,,,,0|i001ev:,,BAN Sprint 3,,,,,,,,System,"1,Nhập tất cả các trường
+2,Nhấn đăng ký",Pass,,,To Do
+LF18-Verify Email-First character cannot have space,N5-27,10252,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 4:02 PM,15/Mar/23 8:41 PM,19/Mar/23 7:34 PM,,,0,LoginForm,"20-Kiểm tra trường email-Ký tự đầu tiên không được là khoảng trắng
+L: Login
+
+
+
+Email:      thanhbang@gamil.com
+
+Mật khẩu:   12344",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hệ thống sẽ hiển thị lỗi: ""Email không đúng định dạng""",,,,,,,,,,N5-1,LOGIN,,,"Hệ thống sẽ hiển thị lỗi: ""Email không đúng định dạng""",,,,,0|i001ef:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập khoảng trắng trước trường Email
+2)Nhấn đăng nhập",Pass,,,To Do
+LF16-Verify Email-Email ID must not be blank,N5-20,10251,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:59 PM,15/Mar/23 8:38 PM,19/Mar/23 7:34 PM,,,0,LoginForm,"LF: LoginForm
+
+16:Verify Email-Email ID must not be blank
+
+Email^:^
+
+Mật khẩu^:^   123456",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 3:59 PM;62a0c1144e1a640070c4143b;R18.png;https://tranthaodien.atlassian.net/secure/attachment/10131/R18.png,"Hệ thống sẽ hiển thị lỗi: ""Mời nhập địa chỉ Email.""",,,,,,,,,,N5-1,LOGIN,,,"Hệ thống sẽ hiển thị lỗi: ""Mời nhập địa chỉ Email.""",,,,,0|i001e7:,,N5 Sprint 1,,,,,,,,Unit,"1)Bỏ qua trường eamil
+2)Nhấn đăng ký",Pass,,,To Do
+LF-Kiểm tra chức năng đăng nhập bằng google,N5-33,10249,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,phúc huỳnh,62980fb02eafc9006eec8e30,phúc huỳnh,62980fb02eafc9006eec8e30,05/Jan/23 3:53 PM,16/Mar/23 8:59 PM,19/Mar/23 7:34 PM,,,0,LoginForm,"LF: Login From
+
+
+
+test data
+
+Nhấn vào biểu tượng yêu cầu đăng nhập bằng google",,phúc huỳnh,62980fb02eafc9006eec8e30,,,,,,,,,05/Jan/23 3:51 PM;62980fb02eafc9006eec8e30;Kiểm tra khi yêu cầu đăng nhập bằng google - chuyển vào trang yêu cầu truy cập.png;https://tranthaodien.atlassian.net/secure/attachment/10130/Ki%E1%BB%83m+tra+khi+y%C3%AAu+c%E1%BA%A7u+%C4%91%C4%83ng+nh%E1%BA%ADp+b%E1%BA%B1ng+google+-+chuy%E1%BB%83n+v%C3%A0o+trang+y%C3%AAu+c%E1%BA%A7u+truy+c%E1%BA%ADp.png,Chuyển vào trang web yêu cầu đăng nhập bằng Google,,,,,,,,,,N5-1,LOGIN,,,Chuyển vào trang web yêu cầu đăng nhập bằng Google,,,,,0|i001dr:,,BAN Sprint 2,,,,,,,,Integratiom,1. Nhấn vào biểu tượng yêu cầu đăng nhập bằng google,Pass,,,To Do
+RF13-Verify Password-Password no must not be blank,N5-18,10248,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:50 PM,15/Mar/23 8:25 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+13-Verify Password-Password no must not be blank
+
+
+
+Họ và tên: Thanh Bằng
+Email: [abc@gamil.com|mailto:abc@gamil.com]
+Điện thoại: 03440.202.067
+Tên tài khoản:ThanhBang
+Mật khẩu: ",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hệ thống sẽ hiển thị lỗi: ""Mời nhập mật khẩu""",,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ hiển thị lỗi: ""Mời nhập mật khẩu""",,,,,0|i001dj:,,N5 Sprint 1,,,,,,,,Unit,"1)Bỏ trống trường mật khẩu
+2)Nhấn đăng ký",Pass,,,To Do
+LF-Kiểm tra chức năng đăng nhập bằng facebook,N5-32,10247,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,phúc huỳnh,62980fb02eafc9006eec8e30,phúc huỳnh,62980fb02eafc9006eec8e30,05/Jan/23 3:49 PM,16/Mar/23 8:58 PM,19/Mar/23 7:34 PM,,,0,LoginForm,"L: Login
+
+
+
+test data
+
+kích vào biểu tượng đăng nhập bằng FaceBook",,phúc huỳnh,62980fb02eafc9006eec8e30,,,,,,,,,05/Jan/23 3:48 PM;62980fb02eafc9006eec8e30;Kiểm tra khi yêu cầu đăng nhập bằng facebook - chuyển vào trang yêu cầu truy cập.png;https://tranthaodien.atlassian.net/secure/attachment/10129/Ki%E1%BB%83m+tra+khi+y%C3%AAu+c%E1%BA%A7u+%C4%91%C4%83ng+nh%E1%BA%ADp+b%E1%BA%B1ng+facebook+-+chuy%E1%BB%83n+v%C3%A0o+trang+y%C3%AAu+c%E1%BA%A7u+truy+c%E1%BA%ADp.png,Chuyển vào trang yêu cầu đăng nhập,,,,,,,,,,N5-1,LOGIN,,,Chuyển vào trang yêu cầu đăng nhập,,,,,0|i001db:,,BAN Sprint 2,,,,,,,,Integratiom,1. kích vào biểu tương yêu cầu đăng nhập bằng facebook,Pass,,,To Do
+RF15-Verify Password-First character cannot have space,N5-17,10246,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:47 PM,15/Mar/23 8:28 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+15-Verify Password-First character cannot have space
+
+Họ và tên: Thanh Bằng
+Email: [abc@gamil.com|mailto:abc@gamil.com]
+Điện thoại: 03440.202.067
+Tên tài khoản:ThanhBang
+Mật khẩu:        1234556",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hệ thống sẽ hiển thị lỗi: ""Mật khẩu không đúng định dạng""",,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ hiển thị lỗi: ""Mật khẩu không đúng định dạng""",,,,,0|i001d3:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập khoảng trắng vào trường mật khẩu
+2)Nhấn đăng ký",Pass,,,To Do
+RF14-Verify Password -Password must be at least 6 characters.,N5-16,10245,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:42 PM,15/Mar/23 8:26 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+14-Verify Password -Password must be at least 6 characters.
+
+Testdata:
+
+Họ và tên: Thanh Bằng
+Email: [abc@gamil.com|mailto:abc@gamil.com]
+Điện thoại: 03440.202.067
+Tên tài khoản:ThanhBang
+Mật khẩu: 123",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 3:41 PM;62a0c1144e1a640070c4143b;R14.png;https://tranthaodien.atlassian.net/secure/attachment/10128/R14.png,"Hệ thống sẽ hiển thị lỗi: ""Mật khẩu tối thiểu phải có 6 ký tự.""",,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ hiển thị lỗi: ""Mật khẩu tối thiểu phải có 6 ký tự.""",,,,,0|i001cv:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập trường mật khẩu
+2)Nhấn đăng ký",Pass,,,To Do
+S-Kiểm tra chức năng đăng nhập-Đăng nhập thành công hệ thống chuyển sang trang home,N5-30,10244,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,phúc huỳnh,62980fb02eafc9006eec8e30,phúc huỳnh,62980fb02eafc9006eec8e30,05/Jan/23 3:40 PM,16/Mar/23 9:00 PM,19/Mar/23 7:34 PM,,,0,LoginForm,"L: Login
+
+
+
+test data
+
+Tên đăng nhập: huynhhoangphuc
+
+mật khẩu: ",,phúc huỳnh,62980fb02eafc9006eec8e30,,,,,,,,,,Chuyển sang trang home,,,,,,,,,,N5-1,LOGIN,,,Chuyển sang trang home,,,,,0|i001cn:,,BAN Sprint 3,,,,,,,,System,"1. Nhập tất cả các trường
+2. nhấn đăng Nhập",Pass,,,To Do
+RF11	-Verify Username -Special character are not allowed ,N5-15,10243,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:39 PM,15/Mar/23 8:18 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+11 -Verify Username -Special character are not allowed
+
+Testdata
+
+Họ và tên: Thanh Bằng
+Email: [abc@gamil.com|mailto:abc@gamil.com]
+Điện thoại: 03440.202.067
+Tên tài khoản: !@#
+Mật khẩu: 123456",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 3:38 PM;62a0c1144e1a640070c4143b;R13.png;https://tranthaodien.atlassian.net/secure/attachment/10126/R13.png,"Hệ thống sẽ hiển thị lỗi: ""không chứa ký tự đặc biệt""",,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ hiển thị lỗi: ""không chứa ký tự đặc biệt""",,,,,0|i001cf:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập ký tự đặc biệt vào trường tên tài khoảng
+2)Nhấn đăng ký",Pass,,,To Do
+RF12	-Verify Username-First character cannot have space,N5-14,10241,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:36 PM,15/Mar/23 8:22 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+12 -Verify Username-First character cannot have space
+
+
+
+Testdata:
+
+Họ và tên: Thanh Bằng
+Email: [abc@gamil.com|mailto:abc@gamil.com]
+Điện thoại: 03440.202.067
+Tên tài khoản: ___aaa
+Mật khẩu: 123456",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hệ thống sẽ hiển thị lỗi: ""UserName không đúng định dạng""",,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ hiển thị lỗi: ""UserName không đúng định dạng""",,,,,0|i001bz:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập khoảng trắng trước trường tên tài khoảng
+2)Nhấn đăng ký",Pass,,,To Do
+RF10	Verify-Username -Username is required,N5-13,10240,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:32 PM,15/Mar/23 8:17 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+10:Verify-Username -Username is required
+
+
+
+Testdata:
+
+Họ và tên: Thanh Bằng
+Email: abc@gamil.com
+Điện thoại: 03440.202.067
+Tên tài khoản: 
+Mật khẩu: 123456",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 3:31 PM;62a0c1144e1a640070c4143b;R11.png;https://tranthaodien.atlassian.net/secure/attachment/10124/R11.png,"Hệ thống sẽ hiển thị lỗi: ""Mời nhập tên tài khoảng""",,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ hiển thị lỗi: ""Mời nhập tên tài khoảng""",,,,,0|i001br:,,N5 Sprint 1,,,,,,,,Unit,"1)Bỏ trống trường username
+2)Nhấn đăng ký",Pass,,,To Do
+RF08-Verify Telephone -Number-First character cannot have space,N5-12,10238,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:29 PM,15/Mar/23 8:13 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+08-Verify Telephone -Number-First character cannot have space
+
+
+
+Testdata:
+
+Họ và tên: Thanh Bằng
+Email: abc@gamil.com
+Điện thoại:      ____ 03440.202.067
+Tên tài khoản: ThanhBang123
+Mật khẩu: 123456",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hệ thống sẽ hiển thị lỗi: ""Số điện thoại không đúng định dạng""",,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ hiển thị lỗi: ""Số điện thoại không đúng định dạng""",,,,,0|i001bb:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập khoảng trắng trước trường số điện thoại
+2)Nhấn đăng ký",Pass,,,To Do
+RF09-Verify Telephone -Number-Special character are not allowed,N5-11,10237,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:26 PM,15/Mar/23 8:15 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+09-Verify Telephone -Number-Special character are not allowed
+
+
+
+Testdata
+
+Họ và tên: Thanh Bằng
+Email: thanhbang@gmail.com
+Điện thoại: 03440.202.067!@#
+Tên tài khoản: ThanhBang123
+Mật khẩu: 123456",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hệ thống sẽ hiển thị lỗi: ""Số điện thoại không đúng định dạng""",,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ hiển thị lỗi: ""Số điện thoại không đúng định dạng""",,,,,0|i001b3:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập kí tự đặc biệt vào trường số điện thoại
+2)Nhấn đăng ký",Pass,,,To Do
+LF-Kiểm tra chức năng đăng nhập- Đăng nhập bằng tài khoảng mật khẩu sai,N5-26,10236,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,phúc huỳnh,62980fb02eafc9006eec8e30,phúc huỳnh,62980fb02eafc9006eec8e30,05/Jan/23 3:24 PM,16/Mar/23 8:52 PM,19/Mar/23 7:34 PM,,,0,LoginForm,"LF: Login From
+
+
+
+test data
+
+*Email*^*^: [huynhhhoangphuc415@gmail.com|mailto:huynhhhoangphuc415@gmail.com]
+
+*Mật khẩu*^*^: 123456 (Mật khẩu không giống với email đã đăng ký)",,phúc huỳnh,62980fb02eafc9006eec8e30,,,,,,,,,05/Jan/23 3:22 PM;62980fb02eafc9006eec8e30;Check tài khoản đăng nhập mật khẩu phải đúng với email đăng ký.png;https://tranthaodien.atlassian.net/secure/attachment/10122/Check+t%C3%A0i+kho%E1%BA%A3n+%C4%91%C4%83ng+nh%E1%BA%ADp+m%E1%BA%ADt+kh%E1%BA%A9u+ph%E1%BA%A3i+%C4%91%C3%BAng+v%E1%BB%9Bi+email+%C4%91%C4%83ng+k%C3%BD.png,"Hiện thị thông báo lỗi"" Sai mật khẩu""",,,,,,,,,,N5-1,LOGIN,,,"Hiện thị thông báo lỗi"" Sai mật khẩu""",,,,,0|i001av:,,BAN Sprint 2,,,,,,,,Integratiom,"1. nhập tất cả các trường
+2. đăng nhập",Pass,,,To Do
+RF06-Verify Email-First character cannot have space,N5-9,10234,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:22 PM,15/Mar/23 8:07 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+04: Verify Email-Email ID must not be blank",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hệ thống sẽ hiển thị lỗi: ""Email không đúng định dạng""",,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ hiển thị lỗi: ""Email không đúng định dạng""",,,,,0|i001af:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập khoảng trắng trước email
+2)Nhấn đăng ký",Pass,,,To Do
+LF-Kiểm tra chức năng đăng nhập-Đăng nhập bằng email chưa được đăng ký,N5-31,10233,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,phúc huỳnh,62980fb02eafc9006eec8e30,phúc huỳnh,62980fb02eafc9006eec8e30,05/Jan/23 3:19 PM,16/Mar/23 8:48 PM,19/Mar/23 7:34 PM,,,0,LoginForm,"LF : Login From
+
+test data:
+
+Login
+
+*Email*: [huynhhoangphuc@gmail.com|mailto:huynhhoangphuc@gmail.com] (email chưa được đăng ký
+
+*Mật khẩu*: *@P12345678*",,phúc huỳnh,62980fb02eafc9006eec8e30,,,,,,,,,05/Jan/23 3:15 PM;62980fb02eafc9006eec8e30;check tài khoản đăng nhập email phải đã được đăng ký.png;https://tranthaodien.atlassian.net/secure/attachment/10120/check+t%C3%A0i+kho%E1%BA%A3n+%C4%91%C4%83ng+nh%E1%BA%ADp+email+ph%E1%BA%A3i+%C4%91%C3%A3+%C4%91%C6%B0%E1%BB%A3c+%C4%91%C4%83ng+k%C3%BD.png,Không hiển thị thông báo,,,,,,,,,,N5-1,LOGIN,,,"Hiển thị thông báo "" email chưa được đăng ký""",,,,,0|i001a7:,,BAN Sprint 2,,,,,,,,Integratiom,"1. nhập tất cả các trường
+2. đăng nhập",Pass,,,To Do
+RF05-Verify Email-Email ID is not valid,N5-8,10232,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:18 PM,15/Mar/23 8:05 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+05-Verify Email-Email ID is not valid
+
+Testdata:
+
+Họ và tên: Thanh Bằng
+Email:     thanhbang2909.com
+Điện thoại: 03440.202.067
+Tên tài khoản: ThanhBang123
+Mật khẩu: 123456",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 3:17 PM;62a0c1144e1a640070c4143b;T06.png;https://tranthaodien.atlassian.net/secure/attachment/10119/T06.png,"Hệ thống sẽ hiển thị lỗi: ""Email không đúng định dạng""",,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ hiển thị lỗi: ""Email không đúng định dạng""",,,,,0|i0019z:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập email không đúng dịnh dạng
+2)Nhấn đăng ký",Pass,,,To Do
+RF04-Verify Email-Email ID must not be blank,N5-7,10231,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:13 PM,15/Mar/23 8:04 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+04: Verify Email-Email ID must not be blank",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hệ thống sẽ hiển thị lỗi: ""Mời bạn nhập email""",,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ hiển thị lỗi: ""Mời bạn nhập email""",,,,,0|i0019r:,,N5 Sprint 1,,,,,,,,,"1)Bỏ trống trường email
+2)Nhấn đăng ký",Pass,,,To Do
+RF03-Verify FullName-First character cannot have space,N5-6,10230,Bug,Open,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:09 PM,17/Mar/23 8:24 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+03-Verify FullName-First character cannot have space
+
+
+Testdata
+
+fullName :    ___ thanhbang",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,15/Mar/23 8:01 PM;62a0c1144e1a640070c4143b;RF03.png;https://tranthaodien.atlassian.net/secure/attachment/10148/RF03.png,Không hiển thị lỗi,,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ hiển thị lỗi: ""fullName không được có khoảng trắng """,,,,,0|i0019j:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập khoảng trắng vào trường fullName
+2)Nhấn đăng ký",Fail,,,To Do
+S-Khi đăng ký tài khoảng thành công màng hình sẽ chuyển về trang đăng nhập,N5-25,10229,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,phúc huỳnh,62980fb02eafc9006eec8e30,phúc huỳnh,62980fb02eafc9006eec8e30,05/Jan/23 3:09 PM,16/Mar/23 8:41 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"S : System
+
+test data
+
+Đăng ký
+
+Họ và tên: huỳnh hoàng phúc
+
+Email: [huynhhoangphuc415@gmail.com|mailto:huynhhoangphuc415@gmail.com]
+
+Điện thoại: 0364.049.310 
+
+Tên tài khoản: HuynhHoangPhuc
+
+Mật khẩu: @P12345678",,phúc huỳnh,62980fb02eafc9006eec8e30,,,,,,,,,,Chuyển trang khi đăng ký thành công ,,,,,,,,,,N5-2,REGISTER,,,Chuyển trang khi đăng ký thành công ,,,,,0|i0019b:,,BAN Sprint 3,,,,,,,,System,"1. nhập tất cả các trường
+2. nhấp đăng ký",Pass,,,To Do
+RF02-Verify FullName -Special character are not allowed ,N5-5,10228,Bug,Open,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 3:05 PM,17/Mar/23 8:23 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+02:Verify FullName - Special character are not allowed
+
+
+
+Test data:
+
+fullName : ***thanhbang",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,15/Mar/23 7:57 PM;62a0c1144e1a640070c4143b;RF02.png;https://tranthaodien.atlassian.net/secure/attachment/10147/RF02.png,Không hiển thị lỗi,,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ hiển thị lỗi: ""ký tự đặc biệt không được phép""",,,,,0|i00193:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập ký tự đặc biệt vào trường fullName
+2)Nhấn đăng ký",Fail,,,To Do
+"RF-Verify Register-If same usersname Id exist in the system, system shows an error.",N5-22,10226,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,phúc huỳnh,62980fb02eafc9006eec8e30,phúc huỳnh,62980fb02eafc9006eec8e30,05/Jan/23 3:01 PM,16/Mar/23 8:37 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF : Register From
+
+If same usersname Id exist in the system, system shows an error.
+
+test data
+
+Họ và tên: huỳnh hoàng phúc
+
+Email: [huynhhoangphuc415@gmail.com|mailto:huynhhoangphuc415@gmail.com]
+
+Điện thoại: 0364.049.310 
+
+Tên tài khoản: HuynhHoangPhuc (Tên tài khoản đã được đăng ký
+
+Mật khẩu: @P12345678",,phúc huỳnh,62980fb02eafc9006eec8e30,,,,,,,,,05/Jan/23 2:58 PM;62980fb02eafc9006eec8e30;check tên tài khoản đã được đăng ký - thông báo lỗi.png;https://tranthaodien.atlassian.net/secure/attachment/10115/check+t%C3%AAn+t%C3%A0i+kho%E1%BA%A3n+%C4%91%C3%A3+%C4%91%C6%B0%E1%BB%A3c+%C4%91%C4%83ng+k%C3%BD+-+th%C3%B4ng+b%C3%A1o+l%E1%BB%97i.png,"Hệ thống sẽ thông báo lỗi""Tên tài khoản đã được đăng ký""",,,,,,,,,,N5-2,REGISTER,,,"Hệ thống sẽ thông báo lỗi""Tên tài khoản đã được đăng ký""",,,,,0|i0018n:,,BAN Sprint 2,,,,,,,,Integratiom,"1. nhập tất cả các trường
+2. nhấn đăng ký",Pass,,,To Do
+RF02-Verify FullName -Special character are not allowed ,N5-4,10225,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 2:58 PM,15/Mar/23 8:31 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: RegisterFrom
+
+02-Verify FullName -Special character are not allowed
+
+Testdata:
+
+Họ và tên: !@#$
+Email: [thanhbang2909@gmail.com|mailto:thanhbang2909@gmail.com]
+Điện thoại: 03440.202.067
+Tên tài khoản: ThanhBang123
+Mật khẩu: 123456",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,05/Jan/23 2:54 PM;62a0c1144e1a640070c4143b;T02.png;https://tranthaodien.atlassian.net/secure/attachment/10114/T02.png,Hệ thống không hiển thị lỗi:,,,,,,,,,,,,,,"Hệ thống sẽ hiển thị lỗi: ""Kí tự đặc biệt không đc phép""",,,,,0|i0018f:,,N5 Sprint 1,,,,,,,,Unit,"1)Nhập ký tự đặc biệt trường họ và tên
+2)Nhấn đăng ký",Fail,,,To Do
+"RF-Verify Register-If same Email Id exist in the system, system shows an error",N5-23,10224,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,phúc huỳnh,62980fb02eafc9006eec8e30,phúc huỳnh,62980fb02eafc9006eec8e30,05/Jan/23 2:56 PM,16/Mar/23 8:31 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF: Register Form
+
+Verify Register-If same Email Id exist in the system, system shows an error
+
+
+
+test data
+
+Họ và tên: huỳnh hoàng phúc
+
+Email: [huynhhoangphuc415@gmail.com|mailto:huynhhoangphuc415@gmail.com] (email đã được đăng ký)
+
+Điện thoại: 0364.049.310
+
+Tên tài khoản: HuynhHoangPhuc
+
+Mật khẩu: @P12345678",,phúc huỳnh,62980fb02eafc9006eec8e30,,,,,,,,,05/Jan/23 2:53 PM;62980fb02eafc9006eec8e30;check mail Đã được đăng ký - thông báo lỗi.png;https://tranthaodien.atlassian.net/secure/attachment/10113/check+mail+%C4%90%C3%A3+%C4%91%C6%B0%E1%BB%A3c+%C4%91%C4%83ng+k%C3%BD+-+th%C3%B4ng+b%C3%A1o+l%E1%BB%97i.png,"hệ thống hiễn thị thông báo lỗi""email đã được đăng ký""",,,,,,,,,,N5-2,REGISTER,,,"hệ thống hiễn thị thông báo lỗi""email đã được đăng ký""",,,,,0|i00187:,,BAN Sprint 2,,,,,,,,Integratiom,"1)nhập tất cả các trường
+2)nhấn đăng ký",Pass,,,To Do
+"RF-Verify Register-If same number phone exist in the system, system shows an error.",N5-21,10223,Bug,Open,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,phúc huỳnh,62980fb02eafc9006eec8e30,phúc huỳnh,62980fb02eafc9006eec8e30,05/Jan/23 2:51 PM,16/Mar/23 8:34 PM,19/Mar/23 7:34 PM,,,0,RegisterFrom,"RF : Register From
+
+If same number phone exist in the system, system shows an error
+
+
+
+test data
+
+*Họ và tên*: huỳnh hoàng phúc
+
+*Email*: [huynhhoangphuc415@gmail.com|mailto:huynhhoangphuc415@gmail.com]
+
+*Điện thoại*: 0364.049.310 (số điên thoại đã được đăng ký)
+
+*Tên tài khoản*: HuynhHoangPhuc
+
+*Mật khẩu*: @P12345678",,phúc huỳnh,62980fb02eafc9006eec8e30,,,,,,,,,05/Jan/23 2:48 PM;62980fb02eafc9006eec8e30;Check điện thoại trùng với số đã đăng ký -- thông báo lỗi.png;https://tranthaodien.atlassian.net/secure/attachment/10112/Check+%C4%91i%E1%BB%87n+tho%E1%BA%A1i+tr%C3%B9ng+v%E1%BB%9Bi+s%E1%BB%91+%C4%91%C3%A3+%C4%91%C4%83ng+k%C3%BD+--+th%C3%B4ng+b%C3%A1o+l%E1%BB%97i.png,Không thông báo lỗi,,,,,,,,,,N5-2,REGISTER,,,"Thông báo lỗi "" số điện thoại đã được đăng ký""",,,,,0|i0017z:,,BAN Sprint 2,,,,,,,,Integratiom,"1)Nhập tất cả các trường
+2)nhấp đăng ký",Fail,,,To Do
+RF01	-Verify FullName-FullName is required,N5-3,10222,Story,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Thanh Bằng,62a0c1144e1a640070c4143b,Thanh Bằng,62a0c1144e1a640070c4143b,05/Jan/23 2:46 PM,15/Mar/23 7:47 PM,05/Jan/23 4:03 PM,,,0,RegisterFrom,"RF: Register From
+
+01: Verify FullName-FullName is required",,Thanh Bằng,62a0c1144e1a640070c4143b,,,,,,,,,,"Hệ thống hiển thị lỗi :""Mời nhập họ và tên""",,,,,,,,,,N5-2,REGISTER,,,"Hệ thống hiển thị lỗi :""Mời nhập họ và tên""",,,,,0|i0017r:,,N5 Sprint 1,,,,,,,,Unit,"1)Bỏ trống trường họ và tên
+2)Bấm đăng ký",Pass,,,To Do
+REGISTER,N5-2,10221,Epic,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Trần Thảo Điền,629810d99582b8006fc58c21,Trần Thảo Điền,629810d99582b8006fc58c21,05/Jan/23 2:38 PM,15/Mar/23 8:10 PM,19/Mar/23 7:34 PM,,,0,,,,Trần Thảo Điền,629810d99582b8006fc58c21,,,,,,,,,,,,,,,,,,,ghx-label-7,,,REGISTER,To Do,,,purple,,,0|i0017j:,,,,,,,,,,,,,,,To Do
+LOGIN,N5-1,10220,Epic,To Do,N5,N5_CD21LM1,software,Trần Thảo Điền,629810d99582b8006fc58c21,,Medium,,,,Trần Thảo Điền,629810d99582b8006fc58c21,Trần Thảo Điền,629810d99582b8006fc58c21,05/Jan/23 2:38 PM,15/Mar/23 8:52 PM,19/Mar/23 7:34 PM,,,0,,,,Trần Thảo Điền,629810d99582b8006fc58c21,,,,,,,,,,,,,,,,,,,ghx-label-7,,,LOGIN,To Do,,,purple,,,0|i0017b:,,,,,,,,,,,,,,,To Do
